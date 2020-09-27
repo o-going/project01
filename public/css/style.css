@@ -1,0 +1,118 @@
+html,body{
+    box-sizing: border-box;
+    height: 100%;   
+}
+
+/* login, sign_up form */
+body.login-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    background-color: #f7f9fb;
+}
+
+.login-page .card-wrapper{
+	width: 400px;
+}
+
+.login-page .card{
+	border-color: transparent;
+	box-shadow: 0 4px 8px rgba(0,0,0,.05);
+}
+
+.login-page .card.fat{
+	padding: 10px;
+}
+
+.login-page .card .card-title{
+	margin-bottom: 30px;
+}
+
+.login-page .card .card-title{
+	margin-bottom: 30px;
+}
+
+.login-page .form-control{
+	border-width: 2.3px;
+}
+
+.login-page .form-group label{
+	width: 100%;
+}
+
+.login-page a.agree{
+    margin-left: 10px;
+}
+
+.login-page .btn.btn-block{
+	padding: 12px 10px;
+}
+
+.login-page .sign-up{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.login-page .footer{
+	margin: 40px 0;
+	color: #999;
+	text-align: center;
+}
+
+/* header */
+/* nav */
+.profile-userpic img {
+	width: 100px;
+	height: 100px;
+    margin: 0 auto;
+    -webkit-border-radius: 50%!important;
+    -moz-border-radius: 50%!important;
+    border-radius: 50%!important;
+}
+
+.profile-usertitle-name{
+	margin-top: 20px;
+}
+
+.h7 {
+	font-size: 0.8rem;
+}
+
+.gedf-wrapper {
+	margin-top: 0.97rem;
+}
+
+/*Reset Bootstrap*/
+.dropdown-toggle::after {
+	content: none;
+	display: none;
+}
+
+/* responsive */
+@media screen and (max-width: 425px){
+	.login-page .card-wrapper{
+		width: 90%;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (max-width: 320px){
+	.login-page .card.fat{
+		padding: 0;
+	}
+
+	.login-page .card.fat .card-body{
+		padding: 15px;
+	}
+}
+
+@media (min-width: 992px) {
+	.gedf-main {
+		padding-left: 4rem;
+		padding-right: 4rem;
+	}
+	.gedf-card {
+		margin-bottom: 2.77rem;
+	}
+}
